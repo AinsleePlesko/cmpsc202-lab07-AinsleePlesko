@@ -1,6 +1,6 @@
 # Lab 07: The Integer-Valued Knapsack Problem
 
-**Name:** _______________________  
+**Name:** Ainslee Plesko  
 
 ## Introduction
 In this lab, you will explore different variations of the Knapsack problem and design a dynamic programming solution for one of them. You may work in small groups or individually, but everyone should write up their own answers to the questions below. 
@@ -17,7 +17,7 @@ Suppose we're going hiking. We have items $1, \ldots, n$ that we could pack in m
 
 **Question:** Which of the three problem variations can be solved using the dynamic programming approaches we've studied in lecture? Explain your reasoning.
 
-*Your Answer:*
+*Your Answer:* All three variations can be solved with dynamic programming when the item weights and values are positive integers. For variation 1, the table keeps track of which items have been considered, so each item can be used at most once. For variation 2, the table allows an item to be used more than once. Both use the capacity $W$ to organize the calculations. For variation 3, the table can track possible total values and the minimum weight needed to reach them, then choose the lightest option that reaches at least $V$.
 
 ## Part 2: The Naive Recursive Algorithm
 
