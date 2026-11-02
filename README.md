@@ -40,7 +40,7 @@ Function MaxValue(W):
 
 **Question:** Which of the three problem variations (1, 2, or 3) does this algorithm solve? How do you know? Explain your reasoning.
 
-*Your Answer:*
+*Your Answer:* This solves variation 2: it maximizes value subject to capacity $W$ while allowing unlimited copies of each item. Each recursive call chooses an item and continues with the remaining capacity, so the same item can be chosen again. It does not solve variation 1 because it does not prevent reuse, or variation 3 because it maximizes value under a weight limit rather than minimizing weight to reach a target value.
 
 ## Part 3: Recursion Tree
 
