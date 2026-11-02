@@ -42,7 +42,7 @@ Function MaxValue(W):
 
 *Your Answer:* This solves variation 2: it maximizes value subject to capacity $W$ while allowing unlimited copies of each item. Each recursive call chooses an item and continues with the remaining capacity, so the same item can be chosen again. It does not solve variation 1 because it does not prevent reuse, or variation 3 because it maximizes value under a weight limit rather than minimizing weight to reach a target value.
 
-## Part 3: Recursion Tree
+## Part 3: Recursion Tree - TODO
 
 Consider the following simple example:
 * **Knapsack Capacity:** $W = 3$
