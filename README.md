@@ -55,7 +55,7 @@ Consider the following simple example:
 *Your Answer (take a picture and upload it):*
 
 
-## Part 4: Recurrence Relation
+## Part 4: Recurrence Relation - TODO
 
 **Question:** Derive a mathematical recurrence relation for $OPT(W)$, the maximum value you can pack into a knapsack of capacity $W$, based on the naive recursive algorithm. Be sure to state your base case(s) and explain how you arrived at your formula.
 
